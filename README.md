@@ -9,7 +9,13 @@ Click Sign Up to create your personalized profile and spend 5 minutes every day 
 
 
 
-May 21, 2025 Update: 
+
+
+
+
+
+
+**May 21, 2025 Update:** 
 * The website is now built using react and fastAPI, rather than HTML and flask. 
 * Upgraded UI and added log-out feature
 * The old version, that was made in the 12 hours at the 2024 Cutie-Hack hackation, can be found in the "hackathon-version" folder
