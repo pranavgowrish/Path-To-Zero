@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pydantic
+astrapy
+bcrypt
+pytz
+sib-api-v3-sdk

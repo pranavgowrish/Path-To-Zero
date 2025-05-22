@@ -1,0 +1,223 @@
+.quizBackground {
+  background-image: url("/public/2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full screen height */
+  width: 100vw;
+}
+
+.quizContainer {
+  background-color: #4caf50;
+  width: 60vw;
+  height: 80vh;
+  border-radius: 3%;
+  position: absolute;
+  left: 20.7%;
+  top: 15vh;
+}
+.quizContainer:hover {
+  box-shadow: 0 4px 12px rgb(0, 155, 252);
+}
+
+.transport label {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 6%;
+  left: 10.5%;
+  display: block;
+}
+.transport select {
+  position: absolute;
+  top: 4%;
+  left: 56%;
+  width: 15vw;
+
+  border-style: solid;
+  background: transparent;
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.transport select:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.miles label {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 18%;
+  left: 2.5%;
+}
+.miles input {
+  position: absolute;
+  left: 56%;
+  top: 16%;
+  width: 15vw;
+
+  border-style: solid;
+  background: transparent;
+  border-radius: 4px;
+  padding: 15px 32px;
+
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.miles input::placeholder {
+  color: black;
+}
+.miles input:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.energy label {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 31%;
+  left: 13.5%;
+}
+.energy select {
+  position: absolute;
+  top: 28%;
+  left: 56%;
+  width: 15vw;
+
+  border-style: solid;
+  background: transparent;
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.energy select:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.food label {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 41.5%;
+  left: 12.5%;
+}
+.food select {
+  position: absolute;
+  top: 39%;
+  left: 56%;
+  width: 15vw;
+
+  border-style: solid;
+  background: transparent;
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.food select:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.waste label {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 51.3%;
+  left: 12.5%;
+}
+.waste select {
+  position: absolute;
+  top: 50%;
+  left: 56%;
+  width: 15vw;
+
+  border-style: solid;
+  background: transparent;
+  border-radius: 4px;
+  padding: 15px 32px;
+  text-align: center;
+
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+}
+.waste select:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.quizSubmit button {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translateX(-50%);
+
+  width: 55%;
+  height: 10%;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+  background: transparent;
+}
+.quizSubmit button:hover {
+  cursor: pointer;
+
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.quizErrorMessage p {
+  color: red;
+
+  position: absolute;
+  left: 37.5%;
+  top: 78%;
+}

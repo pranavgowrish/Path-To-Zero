@@ -1,0 +1,56 @@
+.accountDashBackground {
+  background-image: url("/public/2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full screen height */
+  width: 100vw;
+}
+
+.logOut button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  top: 5vh;
+  position: absolute;
+  left: 85vw;
+}
+.logOut button:hover {
+  background-color: #009bfc;
+  transform: scale(1.1);
+  border-radius: 4px;
+}
+
+.logNewData button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  top: 5vh;
+  position: absolute;
+  left: 10vw;
+}
+.logNewData button:hover {
+  background-color: #009bfc;
+  transform: scale(1.1);
+  border-radius: 4px;
+}
+
+.graph {
+  position: absolute;
+  width: 100vw;
+  height: 70vh;
+  top: 30%;
+}

@@ -1,0 +1,230 @@
+.signUpBackground {
+  background-image: url("/public/2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full screen height */
+  width: 100vw;
+}
+
+.signUpFormContainer {
+  background-color: #4caf50;
+  width: 30vw;
+  height: 77vh;
+  border-radius: 3%;
+  position: absolute;
+  left: 35%;
+  top: 17vh;
+}
+.signUpFormContainer:hover {
+  box-shadow: 0 4px 12px rgb(0, 155, 252);
+}
+
+.firstNameSignUp input {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 7%;
+
+  color: black;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background: transparent;
+}
+.firstNameSignUp input::placeholder {
+  color: black;
+}
+.firstNameSignUp input:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.lastNameSignUp input {
+  position: absolute;
+  left: 50%;
+  top: 17%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 7%;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background: transparent;
+}
+.lastNameSignUp input::placeholder {
+  color: black;
+}
+.lastNameSignUp input:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.emailSignUp input {
+  position: absolute;
+  left: 50%;
+  top: 29%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 7%;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background: transparent;
+}
+.emailSignUp input::placeholder {
+  color: black;
+}
+.emailSignUp input:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.passwordSignUp input {
+  position: absolute;
+  left: 50%;
+  top: 41%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 7%;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background: transparent;
+}
+.passwordSignUp input::placeholder {
+  color: black;
+}
+.passwordSignUp input:hover {
+  cursor: pointer;
+
+  border-radius: 0px;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.repassSignUp input {
+  position: absolute;
+  left: 50%;
+  top: 53%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 7%;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background: transparent;
+}
+.repassSignUp input::placeholder {
+  color: black;
+}
+.repassSignUp input:hover {
+  cursor: pointer;
+
+  border-radius: 0px;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.submitSignUp button {
+  position: absolute;
+  left: 50%;
+  top: 65%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 7%;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+  background: transparent;
+}
+.submitSignUp button:hover {
+  cursor: pointer;
+
+  border-radius: 0px;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.redirectLogIn button {
+  position: absolute;
+  left: 50%;
+  top: 73%;
+  transform: translateX(-50%);
+
+  width: 41.5%;
+  height: 7%;
+
+  color: rgb(24, 23, 23);
+  font-weight: bold;
+
+  border: transparent;
+  background: transparent;
+}
+.redirectLogIn button:hover {
+  cursor: pointer;
+}
+
+.errorSignUp p {
+  width: 75%;
+  align-items: center;
+  position: absolute;
+  left: 65%;
+  top: 81%;
+  transform: translateX(-50%);
+
+  color: red;
+  font-weight: bold;
+}

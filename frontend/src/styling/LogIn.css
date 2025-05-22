@@ -1,0 +1,139 @@
+.logInBackground {
+  background-image: url("/public/2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full screen height */
+  width: 100vw;
+}
+
+.logInFormContainer {
+  background-color: #4caf50;
+  width: 30vw;
+  height: 50vh;
+  border-radius: 3%;
+  position: absolute;
+  left: 35%;
+  top: 25vh;
+}
+.logInFormContainer:hover {
+  box-shadow: 0 4px 12px rgb(0, 155, 252);
+}
+
+.emailLogIn input {
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 10%;
+
+  color: black;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background: transparent;
+}
+.emailLogIn input::placeholder {
+  color: black;
+}
+.emailLogIn input:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.passwordLogIn input {
+  position: absolute;
+  left: 50%;
+  top: 21%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 10%;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  background: transparent;
+}
+.passwordLogIn input::placeholder {
+  color: black;
+}
+.passwordLogIn input:hover {
+  cursor: pointer;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.submitLogIn button {
+  position: absolute;
+  left: 50%;
+  top: 39%;
+  transform: translateX(-50%);
+
+  width: 75%;
+  height: 10%;
+
+  border-radius: 3%;
+  border-style: solid;
+  border-bottom-color: #009bfc;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+  background: transparent;
+}
+.submitLogIn button:hover {
+  cursor: pointer;
+
+  border-radius: 0px;
+  border-left-color: #009bfc;
+  border-top-color: #009bfc;
+  border-right-color: #009bfc;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.redirectSignUp button {
+  position: absolute;
+  left: 50%;
+  top: 51%;
+  transform: translateX(-50%);
+
+  width: 31.5%;
+  height: 7%;
+
+  color: rgb(24, 23, 23);
+  font-weight: bold;
+
+  border: transparent;
+  background: transparent;
+}
+.redirectSignUp button:hover {
+  cursor: pointer;
+}
+
+.errorLogIn p {
+  width: 75%;
+  align-items: center;
+  position: absolute;
+  left: 63%;
+  top: 57%;
+  transform: translateX(-50%);
+
+  color: red;
+  font-weight: bold;
+}

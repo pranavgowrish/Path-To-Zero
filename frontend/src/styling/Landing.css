@@ -1,0 +1,65 @@
+.landingBackground {
+  background-image: url("/public/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.planet1Container {
+  perspective: 600px;
+  background-image: url("/public/moon.jpg");
+  background-position: center;
+  border: 2px solid black;
+  width: 5vw;
+  height: 8vh;
+  border-radius: 100%;
+  position: absolute;
+  left: -6%;
+  top: 24%;
+  transform-style: preserve-3d;
+
+  animation: move-left 15s forwards infinite;
+  animation-delay: 0s;
+}
+@keyframes move-left {
+  0% {
+    transform: translateX(106vw) rotateZ(0deg);
+  }
+  50% {
+    transform: translateX(-110vw) rotateZ(360deg);
+  }
+  100% {
+    transform: translateX(-110vw) rotateZ(360deg);
+  }
+}
+
+.shootingStar {
+  background-color: white;
+  position: absolute;
+  width: 2vw;
+  height: 3.5vh;
+  left: -5%;
+  top: 65%;
+  border-radius: 100%;
+  box-shadow:
+    -10px 10px 5px rgba(255, 0, 0, 0.8),
+    -20px 20px 10px rgba(255, 0, 0, 0.6),
+    -30px 30px 15px rgba(255, 0, 0, 0.4),
+    -40px 40px 20px rgba(255, 0, 0, 0.2);
+
+  animation: star 120s infinite forwards 0s;
+  animation-delay: 6s;
+}
+
+@keyframes star {
+  0% {
+    transform: translateX(-1vw) translateY(-1vh);
+  }
+  5% {
+    transform: translateX(200vw) translateY(-200vh);
+  }
+  100% {
+    transform: translateX(200vw) translateY(-200vh);
+  }
+}
