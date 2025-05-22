@@ -34,7 +34,7 @@ function LogIn() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    fetch("http://127.0.0.1:8000/logIn", {
+    fetch("https://path-to-zero.onrender.com/logIn", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

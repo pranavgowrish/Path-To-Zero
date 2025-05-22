@@ -47,7 +47,7 @@ function Quiz() {
     } else {
       setQuizErrorMessage("");
       console.log(quizData);
-      fetch("http://127.0.0.1:8000/quizData", {
+      fetch("https://path-to-zero.onrender.com/quizData", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

@@ -39,7 +39,7 @@ function SignUp() {
   const handleSubmit = (event) => {
     console.log(userForm);
     event.preventDefault();
-    fetch("http://127.0.0.1:8000/signUp", {
+    fetch("https://path-to-zero.onrender.com/signUp", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

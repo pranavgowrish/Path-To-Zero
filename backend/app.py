@@ -264,5 +264,8 @@ def quizData(data: quizData):
       return JSONResponse(response)
 
 
+@app.post("/keepactive")
+def active():
+    return JSONResponse("activated")
 
 #uvicorn app:app --reload --port 8000 ----->> To run the backend
